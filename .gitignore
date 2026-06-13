@@ -3,3 +3,6 @@ dist/
 *.log
 .DS_Store
 *.gcw
+
+# local agent guidance, not for the public repo
+CLAUDE.md

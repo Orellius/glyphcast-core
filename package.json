@@ -1,0 +1,24 @@
+{
+  "name": "glyphcast-core",
+  "version": "0.1.0",
+  "description": "Video as text: a typography-only video codec. Every frame is a grid of Unicode glyphs with per-cell colors, rendered on the GPU in one draw call, serialized to a byte-aligned wire format a terminal can decode.",
+  "license": "Apache-2.0",
+  "author": "Orellius (https://glyphcast.tv)",
+  "homepage": "https://glyphcast.tv",
+  "repository": "github:Orellius/glyphcast-core",
+  "type": "module",
+  "keywords": ["codec", "unicode", "ascii-art", "webgl", "terminal", "video", "ansi"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "bun examples/roundtrip.ts",
+    "demo:term": "bun examples/terminal-demo.ts",
+    "term": "bun clients/term.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.0"
+  }
+}

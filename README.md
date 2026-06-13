@@ -1,3 +1,5 @@
+<p align="center"><img src="brand/glyphcast-mark.png" width="88" height="88" alt="glyphcast" /></p>
+
 # glyphcast-core
 
 **Video as text.** A typography-only video codec: every frame is a grid of
